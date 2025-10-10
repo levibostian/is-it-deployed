@@ -5,9 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": "dist/cli.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "test": "npx jest",
-    "compile": "npx tsc --outDir dist --declaration"
+    "compile": "npx tsc --outDir dist --declaration && chmod +x dist/cli.js"
   },
   "author": "Levi Bostian <levi@curiosityio.com>",
   "license": "MIT",
