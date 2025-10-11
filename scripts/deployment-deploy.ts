@@ -13,9 +13,6 @@ await $`npm version ${input.nextVersionName} --no-git-tag-version`.printCommand(
 // Verify the version was updated correctly
 await $`cat package.json | grep '"version": "${input.nextVersionName}"'`;
 
-console.log("Testing npm authentication...");
-await $`npm whoami`.printCommand();
-
 const publishArgs = ["publish"];
 
 if (input.testMode) {
