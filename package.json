@@ -14,6 +14,10 @@
   },
   "author": "Levi Bostian <levi@curiosityio.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levibostian/is-it-deployed"
+  },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/jest": "^29.5.4",
