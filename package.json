@@ -15,7 +15,7 @@
   "author": "Levi Bostian <levi@curiosityio.com>",
   "license": "MIT",
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.1",
+    "@tsconfig/node22": "^22.0.2",
     "@types/jest": "^29.5.4",
     "@types/node": "^20.5.9",
     "@types/tiny-json-http": "^7.3.2",

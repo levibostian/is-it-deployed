@@ -1,4 +1,4 @@
 { 
-    "extends": "@tsconfig/node18/tsconfig.json",
-    "exclude": ["**/*.spec.ts"]
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "exclude": ["**/*.spec.ts", "scripts"]
 }
