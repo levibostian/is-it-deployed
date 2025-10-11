@@ -39,4 +39,4 @@ jobs:
     - run: npm run compile 
     - run: npm pack 
     - run: npm install --no-save is-it-deployed-1.0.0.tgz
-    - run: node node_modules/.bin/is-it-deployed --package-manager npm --package-name react --package-version 18.0.0
+    - run: npx is-it-deployed --package-manager npm --package-name react --package-version 18.0.0
