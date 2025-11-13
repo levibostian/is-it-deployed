@@ -31,13 +31,21 @@ Here is an example with the CLI:
 
 `npx is-it-deployed --package-manager npm --package-name is-it-deployed --package-version 1.0.0`
 
+## jsr 
+
+To see if a package has been uploaded to jsr.io, use the `jsr` package manager with the module or the CLI. 
+
+Here is an example with the CLI: 
+
+`npx is-it-deployed --package-manager jsr --package-name is-it-deployed --package-version 1.0.0`
+
 ## CocoaPods 
 
 To see if a package has been uploaded to CocoaPods, use the `cocoapods` package manager with the module or the CLI.
 
 Here is an example with the CLI:
 
-`npx is-it-deployed --package-manager cocoapods --package-name CustomerIO --package-version 2.8.3`
+`npx is-it-deployed --package-manager cocoapods --package-name Wendy --package-version 2.8.3`
 
 ## Maven
 
@@ -45,7 +53,7 @@ To see if a package has been uploaded to the Maven Central repository, use the `
 
 Here is an example with the CLI:
 
-`npx is-it-deployed --package-manager maven --package-name 'io.customer.android:tracking' --package-version 3.6.6`
+`npx is-it-deployed --package-manager maven --package-name 'com.levibostian.teller:teller-android' --package-version 3.6.6`
 
 # Goals 
 
